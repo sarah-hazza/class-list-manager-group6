@@ -13,7 +13,7 @@ def count_names(names):
 # This function searches for a student name.
 def search_name(names, name):
     for student in names:
-        if student == name:
+        if student.lower() == name.lower():
             return True
     return False
 def main():
@@ -21,6 +21,15 @@ def main():
     print("Class list:", names)
     # Written by: Sarah Alarifi (task 1)
     print("Number of names:", count_names(names))
+    # Written by: Aljawharah aljubair (task 2)
+    # Found: the name exists in the list
+    print("Search for Sara:", search_name(names, "Sara"))
+    # Not found: the name is not in the list
+    print("Search for Hessa:", search_name(names, "Hessa"))
+    # Not case sensitive: lowercase still matches
+    print("Search for sara:", search_name(names, "sara"))
+
+
 
 
 main()
