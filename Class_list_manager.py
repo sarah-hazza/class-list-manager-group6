@@ -1,7 +1,7 @@
 # Class List Manager - Group 6
 # MIS 211 Bonus Assignment (GitHub Teamwork)
 
-names = ["Sarah alarifi", "Aljawharah Aljubair", "sara Alzoman", "sara Mohammed", "Ghaida Almutairi "]
+names = ["Sara", "Nora", "Lama", "Reem", "Lama"]
 
 
 # ===== Each student adds her function BELOW this line =====
