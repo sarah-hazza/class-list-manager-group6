@@ -9,7 +9,13 @@ names = ["Sara", "Nora", "Lama", "Reem", "Lama"]
 # This function counts the total number of students in the class list.
 def count_names(names):
     return len(names)
-
+# Written by: Aljawharah aljubair (task 2)
+# This function searches for a student name.
+def search_name(names, name):
+    for student in names:
+        if student == name:
+            return True
+    return False
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
