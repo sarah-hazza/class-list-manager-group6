@@ -11,7 +11,7 @@ Group Members and Functions:
     * Function: search_name()
 3. Sara Alzoman
     * Function: To be added
-4. Sara Mohammed
-    * Function: To be added
+4. Sara Mohammed bin khanjar
+    * Function: sort_names()
 5. Ghaida Almutairi
     * Function: To be added
