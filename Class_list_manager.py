@@ -26,8 +26,10 @@ def sort_names(names):
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
+   
     # Written by: Sarah Alarifi (task 1)
     print("Number of names:", count_names(names))
+   
     # Written by: Aljawharah aljubair (task 2)
     # Found: the name exists in the list
     print("Search for Sara:", search_name(names, "Sara"))
@@ -35,6 +37,7 @@ def main():
     print("Search for Hessa:", search_name(names, "Hessa"))
     # Not case sensitive: lowercase still matches
     print("Search for sara:", search_name(names, "sara"))
+  
     # Written by: Sara bin khanjar (task 3)
     print("Sorted names:", sort_names(names))
   
