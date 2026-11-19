@@ -16,6 +16,13 @@ def search_name(names, name):
         if student.lower() == name.lower():
             return True
     return False
+
+# Written by: Sara bin khanjar (task 3)
+# This function sorts the names alphabetically.
+
+def sort_names(names):
+    return sorted(names)
+
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
@@ -28,6 +35,12 @@ def main():
     print("Search for Hessa:", search_name(names, "Hessa"))
     # Not case sensitive: lowercase still matches
     print("Search for sara:", search_name(names, "sara"))
+    # Written by: Sara bin khanjar (task 3)
+    print("Sorted names:", sort_names(names))
+  
+
+
+    
 
 
 
