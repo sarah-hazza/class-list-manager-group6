@@ -23,6 +23,15 @@ def search_name(names, name):
 def sort_names(names):
     return sorted(names)
 
+# Written by: Sara Alzoman (task 5)
+# This function removes duplicate names while keeping their original order.
+def remove_duplicates(names):
+    unique_names = []
+    for name in names:
+        if name not in unique_names:
+            unique_names.append(name)
+    return unique_names
+
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
@@ -40,6 +49,10 @@ def main():
   
     # Written by: Sara bin khanjar (task 3)
     print("Sorted names:", sort_names(names))
+    
+    # Written by: Sara Alzoman (task 5)
+    print("Names without duplicates:", remove_duplicates(names))
+
   
 
 
