@@ -10,7 +10,7 @@ Group Members and Functions:
 2. Aljawharah Aljubair
     * Function: search_name()
 3. Sara Alzoman
-    * Function: To be added
+    * Function: remove_duplicates()
 4. Sara Mohammed bin khanjar
     * Function: sort_names()
 5. Ghaida Almutairi
